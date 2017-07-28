@@ -1,0 +1,88 @@
+=head2 Wed Nov  2 15:33:43 2016: C<Module> L<Unicode::LineBreak|Unicode::LineBreak>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tools-seqscan/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2016.003>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Jul 21 14:36:13 2017: C<Module> L<List::MoreUtils|List::MoreUtils>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tools-seqscan/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.419>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Jul 21 14:36:16 2017: C<Module> L<Params::Util|Params::Util>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tools-seqscan/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.07>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Jul 21 14:36:19 2017: C<Module> L<MooX::Cmd|MooX::Cmd>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tools-seqscan/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.015>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
