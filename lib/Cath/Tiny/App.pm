@@ -2,11 +2,18 @@ package Cath::Tiny::App;
 
 use Moo;
 use MooX::Cmd;
+use MooX::Options;
+use Data::Dumper;
 
 sub execute {
-    my ($self, $args_ref, $chain_ref) = @_;
-    my @extra_argv = @{$args_ref};
-    my @chain = @{$chain_ref};
+  my ($self,$args,$chain) = @_;
+  #print Dumper( $self );
+
+  printf("%s.execute(\$self,[%s],[%s])\n",
+    ref($self),
+    $args  ? join(", ", @$args) : 'undef',
+    $chain ? join(", ", map { ref } @$chain) : 'undef',
+  );
 }
 
 1;
