@@ -1,0 +1,27 @@
+#!/usr/bin/env perl
+use inc::Module::Install 1.02;
+
+name 'Cath-Tiny-Cluster';
+
+all_from 'lib/Cath/Tiny/Cluster.pm';
+
+requires 'Moo' => '';
+requires 'namespace::autoclean' => '';
+requires 'Path::Tiny' => '';
+requires 'HTTP::Tiny' => '';
+requires 'JSON::MaybeXS' => '';
+requires 'Try::Tiny' => '';
+requires 'Type::Library' => '';
+requires 'Type::Utils' => '';
+requires 'Types::Standard' => '';
+requires 'Log::Dispatch';
+requires 'Type::Tiny';
+requires 'CHI';
+requires 'MooX::Cmd';
+requires 'MooX::Options';
+requires 'MooX::Log::Any';
+requires 'Types::Path::Tiny';
+requires 'Log::Any::Adapter::Dispatch';
+
+
+WriteAll;
