@@ -5,12 +5,12 @@ name 'Cath-Tiny';
 
 all_from 'lib/Cath/Tiny.pm';
 
-requires 'JSON::Any' => '';
 requires 'Moo' => '';
 requires 'MooX::Options' => '';
 requires 'MooX::Cmd' => '';
 requires 'namespace::autoclean' => '';
-requires 'Path::Class' => '';
+requires 'JSON::MaybeXS' => '';
+requires 'Path::Tiny' => '';
 requires 'Params::Validate' => '';
 requires 'REST::Client' => '';
 requires 'Try::Tiny' => '';
@@ -22,5 +22,11 @@ requires 'Text::LineFold';
 requires 'Type::Tiny';
 requires 'IO::String';
 requires 'URI';
+requires 'CHI';
+requires 'MooX::Cmd';
+requires 'MooX::Options';
+requires 'MooX::Log::Any';
+requires 'Types::Path::Tiny';
+requires 'Log::Any::Adapter::Dispatch';
 
 WriteAll;
