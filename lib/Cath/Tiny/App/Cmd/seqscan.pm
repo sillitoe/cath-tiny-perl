@@ -1,8 +1,8 @@
-package Cath::Tiny::App::seqscan;
+package Cath::Tiny::App::Cmd::Seqscan;
 
 =head1 NAME
 
-Cath::Tiny::App::seqscan - scan sequence against funfams in CATH
+Cath::Tiny::App::Cmd::Seqscan - scan sequence against funfams in CATH
 
 =head1 SYNOPSIS
 
@@ -10,7 +10,7 @@ Cath::Tiny::App::seqscan - scan sequence against funfams in CATH
 
 OR
 
-  $app = Cath::Tiny::App::seqscan->new(
+  $app = Cath::Tiny::App::Cmd::seqscan->new(
     in  => '/path/to/fasta.fa',
     out => '/path/to/output/dir/',
   )->execute;

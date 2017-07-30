@@ -4,13 +4,13 @@ use FindBin;
 use Carp qw/ confess /;
 use File::Temp qw/ tempdir /;
 
-use lib "$FindBin::Bin/../extlib/lib/perl5";
+use Cath::Tiny::Test;
 
 use Moo;
 use Path::Class;
 use Bio::SeqIO;
 
-use Cath::Tiny::App::seqscan;
+use Cath::Tiny::App::Cmd::Seqscan;
 
 has query_file => (
   is => 'ro',
@@ -56,7 +56,7 @@ has 'app' => (
 
 sub _build_app {
   my $self = shift;
-  my $app = Cath::Tiny::App::seqscan->new(
+  my $app = Cath::Tiny::App::Cmd::Seqscan->new(
     in  => $self->query_file,
     out => $self->tmp_dir,
     max_aln => $self->max_aln,

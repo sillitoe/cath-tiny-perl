@@ -1,20 +1,26 @@
 package Cath::Tiny::App::Cmd::Cluster;
 
+# core
+use Data::Dumper;
+use Digest::MD5 qw/ md5_hex /;
+use Storable;
+
+# extlib
 use Moo;
 use MooX::Cmd;
 use MooX::Options;
+use CHI;
 use Types::Standard -types;
 use Path::Tiny;
 use Types::Path::Tiny qw/ Dir /;
-use CHI;
-use Digest::MD5 qw/ md5_hex /;
 use Log::Any::Adapter;
 use Log::Dispatch;
-use Data::Dumper;
 
+# lib
 use Cath::Tiny::Cluster;
 use Cath::Tiny::Cluster::NamingScheme::RepresentativeUniprotDescription;
 
+# roles
 with "MooX::Log::Any";
 
 # Send all logs to Log::Dispatch
@@ -33,7 +39,7 @@ option cath => ( is => 'ro', isa => Str, format => 's',
   doc => 'Version of CATH (default: latest)' );
 
 option cache_dir => ( is => 'ro', isa => Dir, coerce => 1, format => 's',
-  default => sub { path('/tmp') },
+  default => sub { path("~/.cath-tiny-cache") },
   doc => 'Base directory to use for cache (default: /tmp)' );
 
 option verbose => ( is => 'ro', isa => Bool, default => 0, trigger => \&setup_debug_mode,
@@ -121,6 +127,7 @@ sub build_cluster_from_funfam_id {
 
     $self->log->debug( "  storing cluster in cache" );
     my $cluster_data = $cluster->pack;
+
     $cache->set( $cache_key, $cluster_data );
   }
 

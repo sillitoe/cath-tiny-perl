@@ -3,9 +3,10 @@ use Test::More tests => 5;
 use strict;
 use warnings;
 
+use Cath::Tiny::Test;
+
 use FindBin;
 use lib "$FindBin::Bin/lib";
-
 use TestSeqscan;
 
 my $app = TestSeqscan->new();

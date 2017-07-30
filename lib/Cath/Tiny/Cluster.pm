@@ -19,53 +19,21 @@ use Cath::Tiny::Cluster::Member;
 # tidy up namespace
 use namespace::autoclean;
 
+with 'Cath::Tiny::Packable';
+
 our $VERSION = '0.01';
 
 # attr
-has name             => ( is => 'rw', isa => Str );
-has members          => ( is => 'rw', isa => ArrayRef, default => sub { [] } );
+has name    => ( is => 'rw', isa => Str );
+has members => ( is => 'rw', isa => ArrayRef, default => sub { [] } );
 
 # helpers
-has json  => ( is => 'ro', isa => Object, default => sub { JSON::MaybeXS->new() } );
-has http  => ( is => 'ro', isa => Object, default => sub { HTTP::Tiny->new() } );
+has _json    => ( is => 'ro', isa => Object, default => sub { JSON::MaybeXS->new() } );
+has _http    => ( is => 'ro', isa => Object, default => sub { HTTP::Tiny->new() } );
 
 sub list_all_members {
   my $self = shift;
   return @{ $self->members };
-}
-
-=head2 $obj->pack
-
-Return a data structure for this object
-
-=cut
-
-sub pack {
-  my $self = shift;
-  my %data = (
-    name    => $self->name,
-    members => [ map { $_->pack } $self->list_all_members ], # Moo objects are essentially hashes
-  );
-  return \%data;
-}
-
-=head2 Cath::Tiny::Cluster->unpack( \%data )
-
-Create a new object from a data structure
-
-=cut
-
-sub unpack {
-  my $class = shift;
-  my $data = shift;
-
-  my @members = map { Cath::Tiny::Cluster::Member->new( %$_ ) } @{ $data->{members} };
-  $data->{members} = \@members;
-
-  # HACK: just to get this working on some cached data (while I'm sans wifi)
-  delete $data->{name} if ! defined $data->{name};
-
-  return __PACKAGE__->new( %$data );
 }
 
 sub new_from_funfam {
@@ -110,8 +78,8 @@ sub _members_from_accessions {
 sub get_member_from_uniprot_acc {
   my $self = shift;
   my $uniprot_acc = shift;
-  my $http = $self->http;
-  my $json = $self->json;
+  my $http = $self->_http;
+  my $json = $self->_json;
   my $uri = 'https://www.ebi.ac.uk/proteins/api/proteins/' . $uniprot_acc;
 
   my $data = $self->get_data_from_uri( $uri );
@@ -164,7 +132,7 @@ sub get_member_from_cath_domain {
 sub get_alignment_from_uri {
   my $self = shift;
   my $uri = shift;
-  my $http = HTTP::Tiny->new();
+  my $http = $self->_http;
   my $response = $http->get( $uri );
   croak "failed to get funfam alignment from uri: $uri"
     unless $response->{success};
@@ -203,8 +171,8 @@ sub get_data_from_uri {
   my $self = shift;
   my $uri = shift;
 
-  my $http = $self->http;
-  my $json = $self->json;
+  my $http = $self->_http;
+  my $json = $self->_json;
 
   my $response = $http->get( $uri, {
       headers => { 'Accept' => 'application/json' }

@@ -3,25 +3,26 @@ use Test::More tests => 5;
 use strict;
 use warnings;
 
-use FindBin;
-use lib "$FindBin::Bin/../extlib/lib/perl5";
+use Cath::Tiny::Test;
 
 use Path::Class;
 use Bio::SeqIO;
 use File::Temp qw/ tempdir /;
 
-use_ok( 'Cath::Tiny::App::seqscan' );
+use_ok( 'Cath::Tiny::App::Cmd::Seqscan' );
 
 my $tmp_dir = tempdir( CLEANUP => 0 );
 
-my $app = Cath::Tiny::App::seqscan->new(
-  in  => "$FindBin::Bin/gh_008.fa",
+(my $fasta_file = $0) =~ s{\.t$}{.fa};
+
+my $app = Cath::Tiny::App::Cmd::Seqscan->new(
+  in  => $fasta_file,
   out => $tmp_dir,
   max_aln => 1,
   no_cache => 1,
 );
 
-isa_ok( $app, 'Cath::Tiny::App::seqscan' );
+isa_ok( $app, 'Cath::Tiny::App::Cmd::Seqscan' );
 
 diag( "tmp_dir: $tmp_dir" );
 
