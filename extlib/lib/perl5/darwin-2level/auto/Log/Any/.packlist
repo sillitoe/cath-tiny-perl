@@ -1,0 +1,17 @@
+/Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5/Log/.gitignore
+/Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5/Log/Any.pm
+/Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5/Log/Any/Adapter.pm
+/Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5/Log/Any/Adapter/Base.pm
+/Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5/Log/Any/Adapter/Development.pod
+/Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5/Log/Any/Adapter/File.pm
+/Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5/Log/Any/Adapter/Null.pm
+/Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5/Log/Any/Adapter/Stderr.pm
+/Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5/Log/Any/Adapter/Stdout.pm
+/Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5/Log/Any/Adapter/Syslog.pm
+/Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5/Log/Any/Adapter/Test.pm
+/Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5/Log/Any/Adapter/Util.pm
+/Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5/Log/Any/Manager.pm
+/Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5/Log/Any/Proxy.pm
+/Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5/Log/Any/Proxy/Null.pm
+/Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5/Log/Any/Proxy/Test.pm
+/Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5/Log/Any/Test.pm

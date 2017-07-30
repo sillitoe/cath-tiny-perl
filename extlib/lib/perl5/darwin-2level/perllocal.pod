@@ -86,3 +86,487 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Sat Jul 29 08:35:25 2017: C<Module> L<Log::Any|Log::Any>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.049>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Jul 29 08:35:26 2017: C<Module> L<Log::Any::Adapter::Dispatch|Log::Any::Adapter::Dispatch>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.08>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Jul 29 08:35:30 2017: C<Module> L<Path::Tiny|Path::Tiny>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.104>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Jul 29 08:35:33 2017: C<Module> L<Test::Warn|Test::Warn>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.32>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Jul 29 08:35:35 2017: C<Module> L<Time::Duration|Time::Duration>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.20>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Jul 29 08:35:36 2017: C<Module> L<Task::Weaken|Task::Weaken>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.04>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Jul 29 08:35:38 2017: C<Module> L<Exporter::Lite|Exporter::Lite>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.08>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Jul 29 08:35:40 2017: C<Module> L<Time::Duration::Parse|Time::Duration::Parse>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.13>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Jul 29 08:35:42 2017: C<Module> L<MooX::Types::MooseLike|MooX::Types::MooseLike>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.29>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Jul 29 08:35:44 2017: C<Module> L<MRO::Compat|MRO::Compat>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.13>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Jul 29 08:35:48 2017: C<Module> L<Test::Class|Test::Class>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.50>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Jul 29 08:35:50 2017: C<Module> L<String::RewritePrefix|String::RewritePrefix>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.007>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Jul 29 08:35:52 2017: C<Module> L<Data::UUID|Data::UUID>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.221>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Jul 29 08:35:55 2017: C<Module> L<Class::Load|Class::Load>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.24>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Jul 29 08:35:56 2017: C<Module> L<MooX::Types::MooseLike::Numeric|MooX::Types::MooseLike::Numeric>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.03>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Jul 29 08:35:58 2017: C<Module> L<Carp::Assert|Carp::Assert>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.21>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Jul 29 08:36:00 2017: C<Module> L<Date::Parse|Date::Parse>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.30>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Jul 29 08:36:02 2017: C<Module> L<Digest::JHash|Digest::JHash>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.10>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Jul 29 08:36:07 2017: C<Module> L<CHI|CHI>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.60>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Jul 29 08:36:09 2017: C<Module> L<File::pushd|File::pushd>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.014>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Jul 29 08:36:10 2017: C<Module> L<Types::Path::Tiny|Types::Path::Tiny>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.005>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Jul 29 08:36:12 2017: C<Module> L<MooX::Log::Any|MooX::Log::Any>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/ian/Documents/cath-tiny-perl/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.004004>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
